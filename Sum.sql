@@ -1,0 +1,9 @@
+CREATE FUNCTION SumFunction(a SMALLINT, b SMALLINT)
+RETURNS SMALLINT
+LANGUAGE plpgsql AS
+$$
+BEGIN
+	RETURN a+b;
+END;
+$$;
+SELECT SumFunction(x, y) FROM TestFunction;
