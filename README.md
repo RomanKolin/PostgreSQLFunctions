@@ -1,1 +1,1 @@
-There are five test functions in PostgreSQL (sql-lua languages)
+There are five test functions for PostgreSQL (sql-lua languages)
